@@ -1,10 +1,9 @@
 package Acme::CPANAuthors::ToBeLike;
 
+#ABSTRACT: BeLike other CPAN Authors
+
 use strict;
 use warnings;
-use vars qw($VERSION);
-
-$VERSION = '0.02';
 
 use Acme::CPANAuthors::Register (
   ALEXBIO => q[Alessandro Ghedini],
@@ -24,13 +23,9 @@ use Acme::CPANAuthors::Register (
   YANICK => q[Yanick Champoux],
 );
 
-q[We are POEsters];
+q[BeLikeEveryoneElse];
 
-__END__
-
-=head1 NAME
-
-Acme::CPANAuthors::ToBeLike - We are CPAN Authors to be like
+=pod
 
 =head1 SYNOPSIS
 
@@ -69,20 +64,10 @@ It is currently statically generated information, I hope to make it dynamic in t
   SHARYANTO => q[Steven Haryanto],
   YANICK => q[Yanick Champoux],
 
-=head1 AUTHOR
-
-Chris C<BinGOs> Williams <chris@bingosnet.co.uk>
-
-=head1 LICENSE
-
-Copyright E<copy> Chris Williams
-
-This module may be used, modified, and distributed under the same terms as Perl itself. Please see the license that came with your Perl distribution for details.
-
 =head1 SEE ALSO
 
 L<Acme::CPANAuthors>
 
-L<POE>
+L<Task>
 
 =cut

@@ -5,14 +5,8 @@ use File::Fetch;
 use File::Spec;
 use IO::Zlib;
 use CPAN::DistnameInfo;
-use Getopt::Long;
 
-my $version;
 my $mirror = 'http://cpan.hexten.net/';
-
-GetOptions('version=s', \$version, 'mirror=s', \$mirror);
-
-die "No version specified with --version\n" unless $version and $version =~ /^[0-9\.]+$/;
 
 my $mailrc = '01mailrc.txt.gz';
 my $packages = '02packages.details.txt.gz';
@@ -69,11 +63,10 @@ push @authors, qq{  $_ => q[$poe_authors{$_}],\n} for sort keys %poe_authors;
 print <<HEADER;
 package Acme::CPANAuthors::ToBeLike;
 
+#ABSTRACT: BeLike other CPAN Authors
+
 use strict;
 use warnings;
-use vars qw(\$VERSION);
-
-\$VERSION = '$version';
 
 use Acme::CPANAuthors::Register (
 HEADER
@@ -83,13 +76,9 @@ print "$_" for @authors;
 print <<MIDDLE;
 );
 
-q[We are POEsters];
+q[BeLikeEveryoneElse];
 
-__END__
-
-=head1 NAME
-
-Acme::CPANAuthors::ToBeLike - We are CPAN Authors to be like
+=pod
 
 =head1 SYNOPSIS
 
@@ -118,21 +107,11 @@ print "$_" for @authors;
 
 print <<TAIL;
 
-=head1 AUTHOR
-
-Chris C<BinGOs> Williams <chris\@bingosnet.co.uk>
-
-=head1 LICENSE
-
-Copyright E<copy> Chris Williams
-
-This module may be used, modified, and distributed under the same terms as Perl itself. Please see the license that came with your Perl distribution for details.
-
 =head1 SEE ALSO
 
 L<Acme::CPANAuthors>
 
-L<POE>
+L<Task>
 
 =cut
 TAIL
