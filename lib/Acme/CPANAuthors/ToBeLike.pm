@@ -6,6 +6,7 @@ use strict;
 use warnings;
 
 use Acme::CPANAuthors::Register (
+  ALEXBIO => q[Alessandro Ghedini],
   AVAR => q[AEvar Arnfjord Bjarmason],
   BINGOS => q[Chris Williams],
   BLUEFEET => q[Aran Clary Deltac],
@@ -19,7 +20,9 @@ use Acme::CPANAuthors::Register (
   LESPEA => q[Adam Lesperance],
   MARCEL => q[Marcel Gruenauer],
   MELO => q[Pedro Melo],
+  MSCHOUT => q[Michael Schout],
   RJBS => q[Ricardo SIGNES],
+  SARTAK => q[Shawn M Moore],
   SHARYANTO => q[Steven Haryanto],
   YANICK => q[Yanick Champoux],
 );
@@ -49,6 +52,7 @@ It is currently statically generated information, I hope to make it dynamic in t
 
 =head1 CONTAINED AUTHORS
 
+  ALEXBIO => q[Alessandro Ghedini],
   AVAR => q[AEvar Arnfjord Bjarmason],
   BINGOS => q[Chris Williams],
   BLUEFEET => q[Aran Clary Deltac],
@@ -62,7 +66,9 @@ It is currently statically generated information, I hope to make it dynamic in t
   LESPEA => q[Adam Lesperance],
   MARCEL => q[Marcel Gruenauer],
   MELO => q[Pedro Melo],
+  MSCHOUT => q[Michael Schout],
   RJBS => q[Ricardo SIGNES],
+  SARTAK => q[Shawn M Moore],
   SHARYANTO => q[Steven Haryanto],
   YANICK => q[Yanick Champoux],
 
