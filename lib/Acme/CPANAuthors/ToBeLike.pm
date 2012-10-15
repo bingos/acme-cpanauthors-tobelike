@@ -6,6 +6,7 @@ use strict;
 use warnings;
 
 use Acme::CPANAuthors::Register (
+  ALEXBIO => q[Alessandro Ghedini],
   AMD => q[AMD OSRC (AMD Operating System Research Center)],
   AVAR => q[AEvar Arnfjord Bjarmason],
   BINGOS => q[Chris Williams],
@@ -19,6 +20,7 @@ use Acme::CPANAuthors::Register (
   DOY => q[Jesse Luehrs],
   FLORA => q[Florian Ragwitz],
   GENEHACK => q[John SJ Anderson],
+  GETTY => q[Torsten Raudssus],
   JJNAPIORK => q[John Napiorkowski],
   JONASBN => q[jonasbn],
   LESPEA => q[Adam Lesperance],
@@ -29,6 +31,7 @@ use Acme::CPANAuthors::Register (
   RSRCHBOY => q[Chris Weyl],
   SARTAK => q[Shawn M Moore],
   SCHWIGON => q[Steffen Schwigon],
+  SHANTANU => q[Shantanu Bhadoria],
   SHARYANTO => q[Steven Haryanto],
   TOBYINK => q[Toby Inkster],
   TOMFAHLE => q[Thomas Fahle],
@@ -60,6 +63,7 @@ It is currently statically generated information, I hope to make it dynamic in t
 
 =head1 CONTAINED AUTHORS
 
+  ALEXBIO => q[Alessandro Ghedini],
   AMD => q[AMD OSRC (AMD Operating System Research Center)],
   AVAR => q[AEvar Arnfjord Bjarmason],
   BINGOS => q[Chris Williams],
@@ -73,6 +77,7 @@ It is currently statically generated information, I hope to make it dynamic in t
   DOY => q[Jesse Luehrs],
   FLORA => q[Florian Ragwitz],
   GENEHACK => q[John SJ Anderson],
+  GETTY => q[Torsten Raudssus],
   JJNAPIORK => q[John Napiorkowski],
   JONASBN => q[jonasbn],
   LESPEA => q[Adam Lesperance],
@@ -83,6 +88,7 @@ It is currently statically generated information, I hope to make it dynamic in t
   RSRCHBOY => q[Chris Weyl],
   SARTAK => q[Shawn M Moore],
   SCHWIGON => q[Steffen Schwigon],
+  SHANTANU => q[Shantanu Bhadoria],
   SHARYANTO => q[Steven Haryanto],
   TOBYINK => q[Toby Inkster],
   TOMFAHLE => q[Thomas Fahle],
