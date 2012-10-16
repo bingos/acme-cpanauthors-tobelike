@@ -18,6 +18,7 @@ use Acme::CPANAuthors::Register (
   DAGOLDEN => q[David Golden],
   DBR => q[Daniel B],
   DOY => q[Jesse Luehrs],
+  ECARROLL => q[Evan Carroll],
   FLORA => q[Florian Ragwitz],
   GENEHACK => q[John SJ Anderson],
   GETTY => q[Torsten Raudssus],
