@@ -59,7 +59,8 @@ q[BeLikeEveryoneElse];
 
 This class provides a hash of emulatable CPAN Authors' PAUSE ID and name to the L<Acme::CPANAuthors> module.
 
-It is currently statically generated information, I hope to make it dynamic in the future.
+It is generated from the indexed modules on CPAN C<02packages.details.txt> finding CPAN authors who have
+a module indexed with C<BeLike> in the name.
 
 =head1 CONTAINED AUTHORS
 

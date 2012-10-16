@@ -12,12 +12,12 @@ my $mailrc = '01mailrc.txt.gz';
 my $packages = '02packages.details.txt.gz';
 
 my $location = '.';
- 
+
 my @files = ('authors/01mailrc.txt.gz','modules/02packages.details.txt.gz');
- 
+
 foreach my $file ( @files ) {
   my $url = join '', $mirror, $file;
- 
+
   my $ff = File::Fetch->new( uri => $url );
   my $stat = $ff->fetch( to => $location );
   next unless $stat;
@@ -41,7 +41,7 @@ close $mrc;
 my %poe_authors;
 
 my $fh = IO::Zlib->new( '02packages.details.txt.gz', "rb" ) or die "$!\n";
- 
+
 while (<$fh>) {
   last if /^\s*$/;
 }
@@ -97,7 +97,8 @@ q[BeLikeEveryoneElse];
 
 This class provides a hash of emulatable CPAN Authors' PAUSE ID and name to the L<Acme::CPANAuthors> module.
 
-It is currently statically generated information, I hope to make it dynamic in the future.
+It is generated from the indexed modules on CPAN C<02packages.details.txt> finding CPAN authors who have
+a module indexed with C<BeLike> in the name.
 
 =head1 CONTAINED AUTHORS
 
