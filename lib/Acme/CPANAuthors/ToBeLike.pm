@@ -18,6 +18,7 @@ use Acme::CPANAuthors::Register (
   DAGOLDEN => q[David Golden],
   DBR => q[Daniel B],
   DOY => q[Jesse Luehrs],
+  FIBO => q[Gianluca Casati],
   FLORA => q[Florian Ragwitz],
   GENEHACK => q[John SJ Anderson],
   GETTY => q[Torsten Raudssus],
@@ -33,7 +34,6 @@ use Acme::CPANAuthors::Register (
   SCHWIGON => q[Steffen Schwigon],
   SHANTANU => q[Shantanu Bhadoria],
   SHARYANTO => q[Steven Haryanto],
-  TOBYINK => q[Toby Inkster],
   TOMFAHLE => q[Thomas Fahle],
   YANICK => q[Yanick Champoux],
 );
@@ -76,6 +76,7 @@ a module indexed with C<BeLike> in the name.
   DAGOLDEN => q[David Golden],
   DBR => q[Daniel B],
   DOY => q[Jesse Luehrs],
+  FIBO => q[Gianluca Casati],
   FLORA => q[Florian Ragwitz],
   GENEHACK => q[John SJ Anderson],
   GETTY => q[Torsten Raudssus],
@@ -91,7 +92,6 @@ a module indexed with C<BeLike> in the name.
   SCHWIGON => q[Steffen Schwigon],
   SHANTANU => q[Shantanu Bhadoria],
   SHARYANTO => q[Steven Haryanto],
-  TOBYINK => q[Toby Inkster],
   TOMFAHLE => q[Thomas Fahle],
   YANICK => q[Yanick Champoux],
 
