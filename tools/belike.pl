@@ -6,7 +6,7 @@ use File::Spec;
 use IO::Zlib;
 use CPAN::DistnameInfo;
 
-my $mirror = 'http://cpan.hexten.net/';
+my $mirror = 'http://www.cpan.org/';
 
 my $mailrc = '01mailrc.txt.gz';
 my $packages = '02packages.details.txt.gz';
