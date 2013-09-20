@@ -6,7 +6,7 @@ use strict;
 use warnings;
 
 use Acme::CPANAuthors::Register (
-  ALEXBIO => q[Alessandro Ghedini],
+  ABHIISNOT => q[Abhishek Shende],
   AMD => q[AMD OSRC (AMD Operating System Research Center)],
   AVAR => q[AEvar Arnfjord Bjarmason],
   BINGOS => q[Chris Williams],
@@ -14,9 +14,10 @@ use Acme::CPANAuthors::Register (
   BURAK => q[Burak Gursoy],
   CADAVIS => q[Chad A Davis],
   CEBJYRE => q[Glenn Fowler],
+  CHIM => q[Anton Gerasimov],
   CSJEWELL => q[Curtis Jewell],
   DAGOLDEN => q[David Golden],
-  DBR => q[Daniel B],
+  DBR => q[Daniel],
   DOY => q[Jesse Luehrs],
   FIBO => q[Gianluca Casati],
   FLORA => q[Florian Ragwitz],
@@ -39,8 +40,10 @@ use Acme::CPANAuthors::Register (
   SCHWIGON => q[Steffen Schwigon],
   SHANTANU => q[Shantanu Bhadoria],
   SHARYANTO => q[Steven Haryanto],
+  TOKUHIROM => q[Tokuhiro Matsuno],
   TOMFAHLE => q[Thomas Fahle],
   YANICK => q[Yanick Champoux],
+  ZAKAME => q[Zak B. Elep],
 );
 
 q[BeLikeEveryoneElse];
@@ -69,7 +72,7 @@ a module indexed with C<BeLike> in the name.
 
 =head1 CONTAINED AUTHORS
 
-  ALEXBIO => q[Alessandro Ghedini],
+  ABHIISNOT => q[Abhishek Shende],
   AMD => q[AMD OSRC (AMD Operating System Research Center)],
   AVAR => q[AEvar Arnfjord Bjarmason],
   BINGOS => q[Chris Williams],
@@ -77,9 +80,10 @@ a module indexed with C<BeLike> in the name.
   BURAK => q[Burak Gursoy],
   CADAVIS => q[Chad A Davis],
   CEBJYRE => q[Glenn Fowler],
+  CHIM => q[Anton Gerasimov],
   CSJEWELL => q[Curtis Jewell],
   DAGOLDEN => q[David Golden],
-  DBR => q[Daniel B],
+  DBR => q[Daniel],
   DOY => q[Jesse Luehrs],
   FIBO => q[Gianluca Casati],
   FLORA => q[Florian Ragwitz],
@@ -102,8 +106,10 @@ a module indexed with C<BeLike> in the name.
   SCHWIGON => q[Steffen Schwigon],
   SHANTANU => q[Shantanu Bhadoria],
   SHARYANTO => q[Steven Haryanto],
+  TOKUHIROM => q[Tokuhiro Matsuno],
   TOMFAHLE => q[Thomas Fahle],
   YANICK => q[Yanick Champoux],
+  ZAKAME => q[Zak B. Elep],
 
 =head1 SEE ALSO
 
